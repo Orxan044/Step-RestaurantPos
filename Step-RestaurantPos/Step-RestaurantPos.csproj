@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Step_RestaurantPos</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\restauraant.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\restauraant.jpg" />
+  </ItemGroup>
+
+</Project>
